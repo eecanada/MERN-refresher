@@ -11,7 +11,13 @@
 //Whos is talking to the DB server? That is the Node Express app. Node send DB queries. I never send request from the client to MongoDB, because to send those queries I need to send my credentials to login into my datebase. I only send request from Node to MongoDB.
 
 
+//////////////////////////////////////////// DIVE TO THE FRONT_END //////////////////////////////////
 
+//React Router DOM - lets me render any component depending on the url path. So it will feel like the user has multiple pages 
+
+//React State - influences what is shown in the screen. To manage state I can use React State in class based components, we can use hooks, and/or redux.
+
+//Components + Styling - important parts of React
 
 
 
