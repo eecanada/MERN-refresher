@@ -11,7 +11,7 @@
 //Whos is talking to the DB server? That is the Node Express app. Node send DB queries. I never send request from the client to MongoDB, because to send those queries I need to send my credentials to login into my datebase. I only send request from Node to MongoDB.
 
 
-//////////////////////////////////////////// DIVE TO THE FRONT_END //////////////////////////////////
+//////////////////////////////////////////// DIVE TO THE FRONT- END //////////////////////////////////
 
 //React Router DOM - lets me render any component depending on the url path. So it will feel like the user has multiple pages 
 
@@ -20,4 +20,9 @@
 //Components + Styling - important parts of React
 
 
+//////////////////////////////////////////// DIVE TO THE BACK-END //////////////////////////////////
+
+// Back-end is built as an API. I can build a rest API or a GraphQL API
+
+// React talks to Node and Node talks to Mongo
 
