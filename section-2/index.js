@@ -72,5 +72,11 @@
 // npm install 
 // nodemon server.js
 
-
 // use npm install to install dependencies 
+
+
+//////////////////////////////////// BACK-END //////////////////////////////
+
+// server.js is the Node and Express server.
+// app.listen(8000) --> this starts up my server on port 8000
+// I will have abn app.get and app.post method and that registers some middleware for certain paths app.get('/path')
