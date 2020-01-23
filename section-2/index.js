@@ -69,10 +69,10 @@
 
 // BACK-END
 //cd into back end
-// npm install 
-// nodemon server.js
+//npm install 
+//nodemon server.js
 
-// use npm install to install dependencies 
+//use npm install to install dependencies 
 
 
 //////////////////////////////////// BACK-END //////////////////////////////
@@ -80,3 +80,11 @@
 // server.js is the Node and Express server.
 // app.listen(8000) --> this starts up my server on port 8000
 // I will have abn app.get and app.post method and that registers some middleware for certain paths app.get('/path')
+
+
+//////////////////////////////////// FRONT-END //////////////////////////////
+
+//React is all about components, they can be functions or class 
+//index.js is where I render my React App , which is imported from the app.js file.
+//JSX is HTML inside JS, used in React.
+//Hooks are special functions that help me manage state 
