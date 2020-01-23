@@ -22,7 +22,27 @@
 
 //////////////////////////////////////////// DIVE TO THE BACK-END //////////////////////////////////
 
-// Back-end is built as an API. I can build a rest API or a GraphQL API
+//Back-end is built as an API. I can build a rest API or a GraphQL API
 
-// React talks to Node and Node talks to Mongo
+//React talks to Node and Node talks to Mongo
+
+
+//////////////////////////////////////////// REST vs GRAPHQL //////////////////////////////////
+
+// REST - multiple endpoints,  REST API is completely seperate from the the front end
+//GET - get resource from the server 
+//POST - post data to a server(create resource)
+//PUT - put a resources onto the server(overwrite a resource)
+//PATCH - update parts of the existing resources on the server
+//DELETE - delete a resource on the server 
+
+
+
+// GRAPHQL - one endpoint(POST)
+// POST request has a request body and that body has a query expression, then parsed by Node, and use that data to store or get data. 
+// GRAPHQL API is completely seperate from the the front end
+
+
+
+
 
