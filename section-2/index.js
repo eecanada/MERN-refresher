@@ -59,7 +59,18 @@
 //Date is exchnaged between the React App and Node API in JSON format 
 
 
+//////////////////////////////////// DEVELOPMENT ENVIRONMENT AND SERVER //////////////////////////////
+
+// FRONT_END
+//cd into front end 
+// npm install 
+// npm start 
 
 
+// BACK-END
+//cd into back end
+// npm install 
+// nodemon server.js
 
 
+// use npm install to install dependencies 
