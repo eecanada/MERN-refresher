@@ -11,7 +11,7 @@
 //Whos is talking to the DB server? That is the Node Express app. Node send DB queries. I never send request from the client to MongoDB, because to send those queries I need to send my credentials to login into my datebase. I only send request from Node to MongoDB.
 
 
-//////////////////////////////////////////// DIVE TO THE FRONT- END //////////////////////////////////
+//////////////////////////////////////////// DIVE TO THE FRONT- END //////////////////////////////
 
 //React Router DOM - lets me render any component depending on the url path. So it will feel like the user has multiple pages 
 
@@ -20,7 +20,7 @@
 //Components + Styling - important parts of React
 
 
-//////////////////////////////////////////// DIVE TO THE BACK-END //////////////////////////////////
+//////////////////////////////////////////// DIVE TO THE BACK-END ///////////////////////////////////
 
 //Back-end is built as an API. I can build a rest API or a GraphQL API
 
@@ -41,6 +41,23 @@
 // GRAPHQL - one endpoint(POST)
 // POST request has a request body and that body has a query expression, then parsed by Node, and use that data to store or get data. 
 // GRAPHQL API is completely seperate from the the front end
+
+
+//////////////////////////////////////////// CONNECTING NODE + REACT ///////////////////////////////////
+
+// HOST APP ON SAME SERVER 
+//host both node API and react single page app under the same domain.
+//node express handles API request 
+//request not targeting API routes return React SPA
+//data is still exchanged with the React App and Node API in JSON format
+
+// HOST APP ON SEPERATE APPS 
+//one server serves a single react.js application HTML page, and all JS files 
+//the other server host our API 
+//Node API handles incoming request 
+//React SPA served from seperate static host 
+//Date is exchnaged between the React App and Node API in JSON format 
+
 
 
 
