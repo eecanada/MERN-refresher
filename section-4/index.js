@@ -15,5 +15,7 @@ class App extends React.Component {
 }
 
 // css classes do not exist in React JSX, so use className="" instead
-
 // every component should just do one thing.
+
+
+// I have to import React from react every turn 
