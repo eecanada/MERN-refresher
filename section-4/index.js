@@ -62,3 +62,8 @@ const GoalList = (props) => {
     }
     props.onAddGoal(newGoal)
   }
+
+
+
+// use state give me an array with two elements, the current state and a function to update the state
+// concat makes a new array, does not modifty the old array like push does.
