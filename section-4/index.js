@@ -19,7 +19,7 @@ class App extends React.Component {
 // I have to import React from react every time I create a new component in order to use JSX
 
 
-//PROPS
+//PROPS- PARENT TO CHILD COMPONENT 
 // To pass data from component to component we use props 
 // Here the App component is adding the prop goals to the GoalList component in order to pass it data. The prop goals holds a refference to my courseGoals array in my App component 
 <GoalList goals={courseGoals}/>
@@ -37,3 +37,5 @@ const GoalList = (props) => {
    </ul>
   )
  }
+
+ // preventDefault() --> prevents the browser default from sending a request to the backend
