@@ -39,3 +39,26 @@ const GoalList = (props) => {
  }
 
  // preventDefault() --> prevents the browser default from sending a request to the backend
+
+ //PASS DATA FROM CHILD TO PARENT COMPONENT
+ //Pass a callback function from the parent component to the child
+
+// From PARENT
+ const addNewGoalHandler = (newGoal) => {
+  courseGoals.push(newGoal)
+  console.log(courseGoals)
+}
+ <NewGoal  onAddGoal={addNewGoalHandler}/>
+
+ //FROM CHILD 
+ const NewGoal = (props) => {
+  const addGoalHandler = (event) => {
+    event.preventDefault()
+
+
+    const newGoal = {
+      id: Math.random().toString(),
+      text: 'my new goal'
+    }
+    props.onAddGoal(newGoal)
+  }
