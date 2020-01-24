@@ -18,4 +18,9 @@ class App extends React.Component {
 // every component should just do one thing.
 
 
-// I have to import React from react every turn 
+// I have to import React from react every time I create a new component in order to use JSX
+
+//PROPS
+// To pass data from component to component we use props 
+// Here the App component is adding the prop goals to the GoalList component in order to pass it data. The prop goals holds a refference to my courseGoals array in my App component 
+<GoalList goals={courseGoals}/>

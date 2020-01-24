@@ -1,12 +1,12 @@
 import React from 'react';
 import './GoalList.css'
 
-const GoalList = () => {
+// props is passing up all the props I have bundled in to the GoalList component 
+const GoalList = (props) => {
+  console.log(props.goals)
  return (
   <ul className="goal-list">
-    <li> Finish the Course</li>
-    <li>  Learn all course main topic</li>
-    <li> Build more MERN projects </li>
+    
   </ul>
  )
 }
